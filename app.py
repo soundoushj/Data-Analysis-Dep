@@ -102,7 +102,7 @@ def apply_dark_style(ax, fig):
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv("Data_Set/Cars_dataset.csv")
+        df = pd.read_csv("Cars_dataset.csv")
     except FileNotFoundError:
         np.random.seed(42)
         n = 300
@@ -121,7 +121,7 @@ def load_data():
     return df
  
 df = load_data()
- 
+
 # -------------------------------------------------
 # SIDEBAR
 # -------------------------------------------------
