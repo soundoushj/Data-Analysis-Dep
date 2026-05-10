@@ -96,7 +96,7 @@ def apply_dark_style(ax, fig):
     for spine in ax.spines.values():
         spine.set_edgecolor(BORDER)
  
-# -------------------------------------------------
+#-------------------------------------------------
 # LOAD DATA
 # -------------------------------------------------
 @st.cache_data
